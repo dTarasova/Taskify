@@ -54,6 +54,13 @@
     background-color: #4b566e;
   }
 
+  .dragactive {
+    background-color: #555e71;
+  }
+  .dragcomplete {
+    background-color: #555e71;
+  }
+
   .todos__heading {
     font-size: 30px;
     color:white;
@@ -77,6 +84,9 @@
   .todos__single:hover {
     box-shadow: 0 0 5px black;
     transform: scale(1.03);
+  }
+  .drag {
+    box-shadow: 0 0 20px black;
   }
   
   .todos__single--text {
@@ -106,3 +116,4 @@
       margin-bottom: 10px;
     }
   }
+
